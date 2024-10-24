@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+*:focus{
+    outline: none;
+}
+ ul{
+    list-style: none;
+
+ }
+body{
+    font-family: "Afacad Flux", sans-serif;
+    background-color:#f0fbff ;
+}
