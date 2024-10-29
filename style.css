@@ -17,7 +17,7 @@
     outline: none;
 }
  ul{
-    list-style: none;
+    list-style:disc;
 
  }
 body{
@@ -101,10 +101,37 @@ h1.title{
     height: 100%;
 }
 .card{
-    height: 400px;
+    height: 500px;
     width: 32%;
     background-color: var(--card-background);
     border-radius:15px;
     padding: 2rem;
    align-content: center;
+}
+.card-title{
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: .5rem;
+}
+.card-price{
+    font-size: 2rem;
+    padding-bottom: 15px;
+}
+h2>span{
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+.active>.card-title, .active>.card-price {
+    font-size:2.5rem;
+}
+.card ul{
+    text-align: left;
+    font-size: .9rem;
+    font-weight: 300;
+    padding-bottom: 1.3rem;
+}
+li::marker{
+    font-size: 1.5rem;
+    color: #acdcee;
+    
 }
