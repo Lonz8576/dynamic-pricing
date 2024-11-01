@@ -17,17 +17,26 @@
 *:focus{
     outline: none;
 }
+@media (max-width:430px){
+    .container{
+        position: relative;  
+    }
+   body{
+    height: 120vh;
+   }
+}
 @media (max-width:600px){
     .container{
         position: relative;
-        padding-top:45px;
+        padding-top:40px;
     }
     .top-banner{
      width: max-content;
     }
 
 }
-@media (max-width:1000px){
+
+@media (max-width:1024px){
     .cards{
         display: flex;
         flex-direction: column;
@@ -39,9 +48,15 @@
     }
     .container{
         position: relative;
-        top: 70%;       
+        top: 75%;
     }
     
+}
+@media (min-width:1440px){
+    .container{
+        position: relative;
+        top:-5%;
+    }
 }
 
  ul{
