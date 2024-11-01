@@ -17,6 +17,33 @@
 *:focus{
     outline: none;
 }
+@media (max-width:600px){
+    .container{
+        position: relative;
+        padding-top:45px;
+    }
+    .top-banner{
+     width: max-content;
+    }
+
+}
+@media (max-width:1000px){
+    .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+    }
+    .card{
+        margin: 1rem 0rem;
+        min-width: fit-content;
+    }
+    .container{
+        position: relative;
+        top: 70%;       
+    }
+    
+}
+
  ul{
     list-style:disc;
 
