@@ -202,4 +202,17 @@ li::marker{
 {
     background-color: var(--banner-background);
 }
+.footer{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    padding-top: 2rem;
+}
+.github, .netlify{
+    text-decoration: none;
+    font-variant: small-caps;
+    color: var(--toggle-background);
+    font-weight: 900;
+    font-size: 1.1rem;
+}
 
