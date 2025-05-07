@@ -109,7 +109,7 @@ h1.title{
     width: 100%;
     justify-content: center;
     align-items: center;
-    margin-bottom:1.5rem ;
+    margin-bottom:1.5rem;
 }
 .toggle{
     appearance: none ;
@@ -126,7 +126,7 @@ h1.title{
     content: "";
     width: 16px;
     height: 16px;
-    background-color:var(--toggle-btn) ;
+    background-color:var(--toggle-btn);
     position: absolute;
     border-radius: 50%;
     top: 50%;
@@ -148,12 +148,15 @@ h1.title{
 .card{
     height: 500px;
     width: 32%;
-    background-color: var(--card-background);  
+    background-color: rgb(35, 49, 66, 0.9);  
     border-radius:15px;
     color: white;
     padding: 1rem 2rem 2rem;    
     align-content: center;
-    box-shadow: -21px 15px 28px 1px rgba(0, 0, 0, 0.4);
+    box-shadow: -2px 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+#card-2{
+    background-color: var(--card-background);
 }
 .card-title{
     font-size: 1.6rem;
@@ -195,7 +198,7 @@ li::marker{
     font-weight: 600;
     font-family: var(--main-font);
     font-size: 1.2rem;
-    box-shadow: 0px 12px 20px 1px rgba(0, 0, 0, 0.4);
+    box-shadow: -2px 1px 2px 1px rgba(0, 0, 0, 0.2);
 }
 #card-1 .card-btn:hover,
 #card-3 .card-btn:hover, .active .card-btn
@@ -204,15 +207,14 @@ li::marker{
 }
 .footer{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 600;
-    font-size: 0.9rem;
-    padding-top: 2rem;
+    font-weight: 400;
+    font-size: 0.7rem;
+    padding-top: 3rem;
 }
 .github, .netlify{
     text-decoration: none;
-    font-variant: small-caps;
     color: var(--toggle-background);
-    font-weight: 900;
-    font-size: 1.1rem;
+    font-weight: 500;
+    font-size: 0.7rem;
 }
 
